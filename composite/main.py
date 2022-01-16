@@ -34,14 +34,14 @@ clerk2 = Employee("Bob", "Marketing", 10000)
 salesExecutive1 = Employee("Richard", "Sales", 10000)
 salesExecutive2 = Employee("Rob", "Sales", 10000)
 
-CEO.add(headSales);
-CEO.add(headMarketing);
+CEO.add(headSales)
+CEO.add(headMarketing)
 
-headSales.add(salesExecutive1);
-headSales.add(salesExecutive2);
+headSales.add(salesExecutive1)
+headSales.add(salesExecutive2)
 
-headMarketing.add(clerk1);
-headMarketing.add(clerk2);
+headMarketing.add(clerk1)
+headMarketing.add(clerk2)
 
 print(CEO)
 for headEmployee in CEO.getSubordinates():
